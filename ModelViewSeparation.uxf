@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>15</zoom_level>
+  <element>
+    <type>com.umlet.element.Actor</type>
+    <coordinates>
+      <x>495</x>
+      <y>540</y>
+      <w>150</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Player</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>750</x>
+      <y>315</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>keyboard input
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>210</x>
+      <y>300</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>user interface
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>480</x>
+      <y>75</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>PlayScreen
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>570</x>
+      <y>330</y>
+      <w>299</w>
+      <h>269</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;&lt;user input&gt;&gt;</panel_attributes>
+    <additional_attributes>270;45;45;240</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>570</x>
+      <y>75</y>
+      <w>317</w>
+      <h>269</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;&lt;recieve player input&gt;&gt;</panel_attributes>
+    <additional_attributes>75;45;270;240</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>225</x>
+      <y>75</y>
+      <w>341</w>
+      <h>254</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;&lt;update render method&gt;&gt;</panel_attributes>
+    <additional_attributes>75;225;270;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>255</x>
+      <y>315</y>
+      <w>299</w>
+      <h>284</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+&lt;&lt;Input Processed to 
+be viewed by Player&gt;&gt;</panel_attributes>
+    <additional_attributes>270;255;45;45</additional_attributes>
+  </element>
+</diagram>

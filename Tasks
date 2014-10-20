@@ -1,0 +1,15 @@
+1. Create Title and Instructions Panels
+2. Create Input class and make it flexible for future classes
+3. Implement Input class with Title and instruction panels
+4. Create Player class
+5. Create all the gfx classes
+6. Implement gfx with Player class
+7. Create PlayScreen class and implement the Level class
+8. Finish implementing gfx and Player classes with PlayScreen
+9. Finishing touches for Milestone #1
+10. Create PickableItem and ImmovableObject classes
+11. Implement above classes with PlayScreen
+12. Create Inventory class and implement with PlayScreen
+13. Create PlayerInventory class for user story #7
+14. Implement PlayerInventory with Player class
+15. Create condition such as if (Player.inventory.isFull()) display message saying you are ready to finish the game.
